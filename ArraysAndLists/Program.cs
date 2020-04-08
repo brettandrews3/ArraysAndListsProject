@@ -8,11 +8,36 @@ namespace ArraysAndLists
         {
             //TODO:
 
-            // Create an int Array and populate numbers 1-10
+            // DONE Create an int Array and populate numbers 1-10
+            int[] myArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            /* Create two Lists of type int.
-             * Name one List "evens"
-             * Name the other List "odds"
+            var evens = new List<int>();
+            var odds = new List<int>();
+
+            for (int i = 0; i < myArray.Length; i++)
+			{
+                if (myArray[i] % 2 == 0)
+                {
+                    evens.Add(myArray[i]);
+                }
+               
+			}
+
+            foreach (int i in myArray)
+			{
+                if (myArray [i]) % 2 != 0)
+                    {
+                    odds.Add(myArray[i]);
+				}
+			}
+			{
+                Console.WriteLine(odds);
+                Console.WriteLine(evens);
+			}
+            /* DONE Create two Lists of type int.
+            
+             * DONE Name one List "evens"
+             * DONE Name the other List "odds"
              */
 
             /* Using either a foreach or for loop,
