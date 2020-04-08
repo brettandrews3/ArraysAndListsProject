@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ArraysAndLists
 {
@@ -20,12 +21,12 @@ namespace ArraysAndLists
                 {
                     evens.Add(myArray[i]);
                 }
-               
-			}
+
+            }
 
             foreach (int i in myArray)
 			{
-                if (myArray [i]) % 2 != 0)
+                if (myArray[i] % 2 != 0)
                     {
                     odds.Add(myArray[i]);
 				}
